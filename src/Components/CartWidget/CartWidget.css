@@ -1,0 +1,14 @@
+.carrito {
+    height: 45px;
+    width: 45px;
+    padding-right: 0.5%;
+}
+.cero{
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 0;
+    padding-right: 1%;
+    padding-left: 0%;
+    position: static;
+    font-size: x-large;
+}
