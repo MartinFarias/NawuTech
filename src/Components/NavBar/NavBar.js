@@ -1,33 +1,47 @@
-import Container from 'react-bootstrap/Container';
-import Nav from 'react-bootstrap/Nav';
+import React from 'react'
+import {Routes, Route, Link} from 'react-router-dom'
+import Inicio from '../Inicio'
+import Ofertas from '../Ofertas'
+import Catalogo from '../Catalogo'
+import Error from '../Error'
 import Navbar from 'react-bootstrap/Navbar';
 import  '../NavBar/NavBar.css';
 import  CartWidget from '../../Components/CartWidget/CartWidget.js';
 
-function ColorSchemesExample() {
+function NavBar() {
   return (
     <>
-
-
       <Navbar bg="primary" variant="dark">
+        
+      <div className='Container'>
       <img src={require('../../Assets/Logo.png')} 
+      className="d-inline-block align-top logo"
+       alt="logo de dips"/>
 
-className="d-inline-block align-top logo"
-alt="logo de dips"/>
+        
+          <div className='btn-group'>
 
+          <Link to="/" className='btn btn-success'>Inicio</Link>
+          <Link to="/ofertas" className='btn btn-success'>Ofertas</Link>
+          <Link to="/catalogo" className='btn btn-success'>Catalogo</Link>
+          <CartWidget/>
+          </div>
+          
 
-        <Container className='barra'>
-                  <Navbar.Brand href="#home">Inicio</Navbar.Brand>
-          <Nav className="me-auto">
-            <Nav.Link href="#home">Ofertas</Nav.Link>
-            <Nav.Link href="#features">catalogo</Nav.Link>
-            <Nav.Link href="#pricing">contacto</Nav.Link>
-          </Nav>
-        </Container>
-        <CartWidget/>
+          <Routes>
+
+              <Route path='/' exact element={<Inicio/>}/>
+              <Route path='/ofertas' exact element={<Ofertas/>}/>
+              <Route path='/catalogo' exact element={<Catalogo/>}/>
+              <Route path='/*' exact element={<Error/>}/>    
+
+          </Routes>
+          
+        </div>
+       
       </Navbar>
     </>
   );
 }
 
-export default ColorSchemesExample;
+export default NavBar;
