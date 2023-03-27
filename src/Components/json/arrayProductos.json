@@ -1,7 +1,7 @@
-[ {"id":1, "nombre":"Procesador AMD Ryzen 3 4100 Sin cooler OEM",
+[ {"id":0, "nombre":"Procesador AMD Ryzen 3 4100 Sin cooler OEM",
     "precio": "$30900", "img": "https://images.app.goo.gl/9HJGByQNoWgPdZo57",
     "caracteristicas":"Modelo: 4100, Socket: AM4 Ryzen 4th Gen, Núcleos: 4, Frecuencia: 3800.00 mhz, Proceso De Fabricación: 7 nm, Chipset: Gpu NO Posee Gráficos Integrados, Hilos: 8, Frecuencia Turbo: 4000 mhz, Familia: AMD RYZEN 3","categoria":"ofetas"},
-    {"id":2, "nombre":"Procesador AMD RYZEN 3 3200G",
+    {"id":1, "nombre":"Procesador AMD RYZEN 3 3200G",
     "precio": "$50600","img": "https://images.app.goo.gl/9HJGByQNoWgPdZo57", "caracteristicas":"Modelo: Ryzen 3 3200G, Socket: AM4 APU 2th Gen, Núcleos: 4, Frecuencia: 3600.00 mhz, Proceso De Fabricación: 12 nm, Chipset Gpu: Radeon Vega 8, Hilos: 4, Frecuencia Turbo: 4000 mhz, Familia: AMD RYZEN 3","categoria":"catalogo"},
-   {"id":3, "nombre":"Procesador AMD RYZEN 5 3600 ","precio": "$51999", "img": "https://images.app.goo.gl/9HJGByQNoWgPdZo57", "caracteristicas": "Modelo: Ryzen 5 3600, Socket: AM4 Ryzen 3th Gen, Núcleos: 6, Frecuencia: 3600.00 mhz, Proceso De Fabricación: 7 nm, Chipset Gpu: NO Posee Gráficos Integrados, Hilos: 12, Frecuencia Turbo: 4200 mhz, Familia: AMD RYZEN 5","categoria":"catalogo"}
+   {"id":2, "nombre":"Procesador AMD RYZEN 5 3600 ","precio": "$51999", "img": "https://images.app.goo.gl/9HJGByQNoWgPdZo57", "caracteristicas": "Modelo: Ryzen 5 3600, Socket: AM4 Ryzen 3th Gen, Núcleos: 6, Frecuencia: 3600.00 mhz, Proceso De Fabricación: 7 nm, Chipset Gpu: NO Posee Gráficos Integrados, Hilos: 12, Frecuencia Turbo: 4200 mhz, Familia: AMD RYZEN 5","categoria":"catalogo"}
 ]

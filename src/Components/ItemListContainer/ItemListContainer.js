@@ -1,8 +1,8 @@
 import React from 'react';
 import { useState, useEffect} from 'react';
 import { useParams } from 'react-router-dom';
-import arrayProductos from '../json/Productos.json'
-import ItemList from '../ItemList/ItemList'
+import arrayProductos from '../json/arrayProductos.json'
+import ItemList from '../ItemList/ItemList.js';
 
 const ItemListContainer = () => {
   const [item, setItem] = useState ([])
@@ -11,14 +11,16 @@ const ItemListContainer = () => {
   useEffect(() => {
     const promesa = new Promise((resolve) => {
       setTimeout(() => {
-        resolve(id ? arrayProductos.filter(item => item.categoria === id) : arrayProductos)
+        resolve( arrayProductos)
       },2000)
   });
 
   promesa.then((data) => {
     setItem(data)
   })
-},[id]);
+},[id])
+console.log(item);
+
 
 return (
   <div className="container">
