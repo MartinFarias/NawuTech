@@ -1,10 +1,49 @@
-
-.logo {
-    width: 65px;
-    height: 65px;
-    margin-left: 2rem;
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.2rem;
+    padding: 0 30px;
+    background: rgb(253,29,29);
+    background: linear-gradient(90deg, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+    width: 95%;
+    height: 80px;
+    border-radius: 13px;
+    position: fixed;
+    top: 20px;
+    left: 50%;
+    transform: translate(-50%);
 
 }
+.logo {
+    color: #fff;
+    cursor: pointer;
+    width: 3.5rem;
+    }
+
+    .nombre {
+        position: fixed;
+        margin-top: 1rem;
+        margin-left: 1rem;        
+    }
+
+    .nav__Link{
+        color: white;
+        text-decoration: none;
+        
+    }
+
+    .nav__Link:hover {
+        background: rgb(80, 80, 238);
+        border-radius: 4px;
+        transition: all 0.2s ease-in-out;
+    }
+
+
+    .li{
+        color: white;
+        
+    }
 
 .barra {
     position: initial;

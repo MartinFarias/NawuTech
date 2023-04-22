@@ -1,0 +1,48 @@
+    .container {
+    width: 98%;
+    margin-top: 15%;
+    margin-left: 5%;
+
+}
+
+@media screen and (min-width: 768px) {
+    .container {
+        width: 70%;
+    }
+}
+
+.detail {
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.detail_image {
+    width: 40%;
+    }
+
+.content {
+    width: 100%;
+}
+.content h1 {
+color: white;
+}
+.content p {
+    color: white;
+}
+.content h2 {
+    color: rgb(90, 252, 65);
+}
+
+@media screen and (min-width: 768px) {
+    .deatil_image {
+        width: 50%;
+    }
+    .content {
+        padding-left: 3rem;
+        width: 50%;
+            }
+}
+
